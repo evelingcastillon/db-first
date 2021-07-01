@@ -3,8 +3,11 @@
 ## (table) Auto
 - id                                    BINGINT PRIMARY KEY UNIQUE NOTNULL INDEX
 - targa                                 CHAR(7) NOTNULL UNIQUE
-- marca                                 VARCHAR(100) NOTNULL
-- modello                               VARCHAR(200) NOTNULL
+- marca                                 VARCHAR(30) NOTNULL
+- modello                               VARCHAR(50) NOTNULL
+- prezzo                                DECIMAL(9,2) NOTNULL
+- foto                                  VARCHAR(255) NULL
+- colore                                VARCHAR(25) NOTNULL
 - anno                                  YEAR NOTNULL
 - posti                                 SMALLINT NOTNULL
 - numero porte                          SMALLINT NOT NULL
